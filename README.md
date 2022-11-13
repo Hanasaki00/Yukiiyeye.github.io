@@ -18,12 +18,12 @@
 
        html{
            height: 100%;
-           background: -webkit-radial-gradient(center,#153170,#000);
+           background: -webkit-radial-gradient(center,#ffffff,rgb(252, 252, 252));
        }
 
        .heart{ position: relative; width: 300px; height: 300px; margin: 200px auto;transform: rotate(45deg);
            animation: move 2s infinite alternate ;}
-       .heart div{ position: absolute; width: 200px; height: 200px; background: red;}
+       .heart div{ position: absolute; width: 200px; height: 200px; background: rgb(239, 151, 217);}
        .heart .middle{ right: 0; bottom: 0; width: 200px; height: 200px;}
        .heart .left{ left: 0; bottom: 0; border-radius: 50%;}
        .heart .right{ top: 0; right: 0;border-radius: 50%;}
@@ -31,7 +31,7 @@
        .heart p{ width: 200px; height: 30px; font: bold 25px/30px "";text-align:center; color: #fff;}
        .heart p{ position: absolute; right: 0; bottom: 85px; transform: rotate(-45deg);}
        .heart p{
-            color: pink;
+            color: rgb(231, 216, 216);
         }
        @-webkit-keyframes move{
            10%{ transform: rotate(45deg) scale(1.1); text-shadow: 0 0 5px #fff; }
@@ -55,4 +55,3 @@
    </div>
 </body>
 </html>
-
