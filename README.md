@@ -1,13 +1,8 @@
-<!-- 
-    加入控制按钮，上一张与下一张，直接切换按钮
-    将第一张图片的边缘化进行处理
-    对浏览器页面显隐与鼠标移入移出事件的支持
--->
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>轮播图</title>
+    <title儿童食品</title>
     <meta charset="utf-8">
     <meta name="referrer" content="no-referrer">
 </head>
